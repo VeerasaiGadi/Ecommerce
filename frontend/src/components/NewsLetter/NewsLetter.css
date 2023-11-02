@@ -1,0 +1,48 @@
+.NewsLetter {
+    background-image: linear-gradient(to bottom, rgb(0, 0, 0), rgb(30, 31, 30),rgb(54, 54, 54),rgb(92, 92, 93));
+    padding: 20px;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    line-height: 40px;
+    color: white;
+}
+.NewsLetter .input {
+    display: flex;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+    width: 500px;
+    background: none;
+    
+}
+.NewsLetter .input input {
+    padding: 6px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    outline: none;
+    border: none;
+    width: 70%;
+    
+}
+.NewsLetter .input button {
+    background-color: rgb(25, 248, 25);
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border: none;
+    padding: 6px 10px;
+    width: 30%;
+}
+.NewsLetter .input button:hover {
+    background-color: rgb(5, 4, 4);
+    color: white;
+    transition: 1s;
+    
+}

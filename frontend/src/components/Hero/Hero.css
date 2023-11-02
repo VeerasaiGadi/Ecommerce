@@ -1,0 +1,141 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body {
+    background-color: #333;
+    /* justify-content: center; */
+}
+.top-hero {
+    display: flex;
+    justify-content: center;
+    /* margin-top: 100px; */
+}
+.hero {
+    /* background: linear-gradient(to bottom red green); */
+    /* background-color: #ec9e37; */
+    display: flex;
+    /* justify-content: space-evenly; */
+    align-items: center;
+    padding: 20px;
+    width: 95vw;
+    border-radius: 20px;
+    /* margin-top: 10px;
+    margin-top: 100px; */
+    background-color: rgb(31, 30, 30);
+    
+
+
+    
+}
+.hero img {
+    height: 400px;
+    width: 30vw;
+}
+.hero .hero-content {
+   
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* background-color: #333; */
+    width: 68vw;
+    margin-left: 10px;
+    
+}
+.hero .hero-content .img {
+    position: absolute;
+    height: 100px;
+    width: 55px;
+    left: 300px;
+    top: 190px;
+}
+.hero .hero-content .head {
+    font-size: 350px;
+    color: white;
+    font-weight: 500;
+
+}
+.hero .hero-content .hero-rotate {
+    display: flex;
+    position: relative;
+    rotate: 90deg;
+    right: -450px;
+    top: -40px;
+    color: white;
+}
+.hero .hero-content .hero-rotate .one {
+    font-size: 20px;
+    letter-spacing: 2px;
+    margin-top: 20px;
+    margin-right: 30px;
+}
+.hero .hero-content .hero-rotate .two {
+    font-size: 80px;
+    font-weight: 600;
+}
+/* .hero-content button {
+    background-color: blue;
+    color: white;
+    padding: 15px 20px;
+    border: none;
+    border-radius: 15px;
+    width: 300px;
+    position: relative;
+    bottom: 60px;
+    left: 150px;
+
+}
+.hero-content button:hover {
+    background-color: black;
+    color: white;
+    transform:translate(5s) ;
+} */
+.button {
+    display: inline-block;
+    border-radius: 20px;
+    background-color: #1b0ddf;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 28px;
+    padding: 20px;
+    width: 300px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+    position: relative;
+    bottom: 60px;
+    left: 150px;
+  }
+  
+  .button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+  
+  .button span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+  
+  .button:hover span {
+    padding-right: 25px;
+    
+  }
+  .button:hover {
+    background-color: black;
+    color: white;
+  }
+  
+  .button:hover span:after {
+    opacity: 1;
+    right: 0;
+  }

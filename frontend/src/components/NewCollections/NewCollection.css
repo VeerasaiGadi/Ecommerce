@@ -1,0 +1,26 @@
+.new_collections {
+    /* margin-top: 200px; */
+    background-color: aliceblue;
+     display: flex;
+     align-items: center;
+    flex-direction: column;
+    /* justify-content: center;  */
+    margin: 20px;
+    border-radius: 20px;
+    padding: 20px;
+}
+.new_collections hr {
+    background-color: black;
+    width: 300px;
+    height: 7px;
+    border-radius: 20px;
+    background-image: linear-gradient(to right,rgb(253, 16, 16),rgb(37, 245, 37),rgb(51, 51, 252),rgb(252, 176, 34))
+
+}
+.new_collections .collections {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+    margin-top: 10px;
+}

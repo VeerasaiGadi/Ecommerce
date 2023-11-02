@@ -1,0 +1,2 @@
+(self.__LOADABLE_LOADED_CHUNKS__=self.__LOADABLE_LOADED_CHUNKS__||[]).push([[1481],{688506:(_,e,r)=>{var l={locale:"te-IN",i18nStrings:void 0,plural:r(788006)};_.exports=l},788006:_=>{_.exports=function(_){return 1!=+_}}}]);
+//# sourceMappingURL=https://sm.pinimg.com/webapp/locale-te_IN-inlined-js-4afa1cfacd1baa70.mjs.map
